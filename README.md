@@ -1,17 +1,21 @@
 # DSA2020 Email Searcher
 Data Structure and Algorithm, Spring 2020
 
-**＊＊Words in Operations section and before is from `./doc/project.pdf` and `./doc/project_spec.pdf`**
+**Words in Operations section is from `./doc/project.pdf` and `./doc/project_spec.pdf`**
 
 ## Introduction
 This is the final project of DSA lecture in NTU CSIE:
 
-The main theme of the project is a email searcher. The email searcher helps retrieving precious emails from the mail pool, which contains mails that came in a streaming manner.
+>The main theme of the project is a email searcher. The email searcher helps retrieving precious emails from the mail pool, which contains mails that came in a streaming manner.
 The searcher should effectively use the computational and storage resources of your computer. So the data structure (and the associated algorithm) used for representing the mail pool can be crucial.
+>--<cite>[Project][1]</cite>
+
+[1]: https://www.csie.ntu.edu.tw/~htlin/course/dsa20spring/project/
 
 For detailed input and output format, please refer to `./doc/project.pdf` and `./doc/project_spec.pdf`
 
 ### Operations
+**Words in this section is from `./doc/project.pdf` and `./doc/project_spec.pdf`**
 - `add <file>`: add a mail into database, where `<file>` is the absolute path of the file that stores a mail.
 
 - `remove <id>`: remove mail from database, where `<id>` is the unique positive Message-ID of a mail.
@@ -31,6 +35,9 @@ or <expression>|<expression> or <expression>&<expression>
 
 ### Survey
 >Study at least THREE data structures for dealing with the email searcher. Then, make a comparison of those data structures according to some different perspectives, such as average speed, worst speed, space, implementation, popularity, etc.. Based on the results of your comparison, you are asked to recommend the best one for the email searcher, and provide the "cons and pros" of the choice.
+>--<cite>[Project][1]</cite>
+
+[1]: https://www.csie.ntu.edu.tw/~htlin/course/dsa20spring/project/
 
 We conducted the survey of:
 - Dynamic Array: `std::vector`
